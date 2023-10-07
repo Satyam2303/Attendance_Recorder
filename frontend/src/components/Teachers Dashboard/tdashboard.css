@@ -1,0 +1,140 @@
+.years {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  padding-top: 2%;
+}
+.tdashboard{
+  height: 50vh;
+}
+.labs {
+  height: auto;
+}
+.tdash {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.years,
+.labdiv {
+  /* width: 90%; */
+  padding-inline: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.yearbox {
+  width: 200px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* padding: auto; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yearbox:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(36, 45, 57, 1) 11.2%,
+    rgba(16, 37, 60, 1) 51.2%,
+    rgba(0, 0, 0, 1) 98.6%
+  );
+  scale: 1.1;
+  /* transition-delay: 0.5s; */
+  /* transition: ease-in; */
+  /* -webkit-transition: ease-out 0.4s; */
+  /* -moz-transition: ease-out 0.4s; */
+  transition: ease-in-out 0.4s;
+}
+/* 
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #D80286;
+  } */
+
+.subjects {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-bottom: 15%; */
+}
+.labs{
+  
+  row-gap: 40px;
+}
+.subject {
+  width: 180px;
+  height: 180px;
+}
+
+.division {
+  width: 160px;
+  height: 160px;
+}
+
+
+.limits{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+.limits .inputclass{
+  width: 35%;
+
+}
+
+@media (max-width: 600px) {
+  .years {
+    margin-top: 10%;
+    height: auto;
+  }
+  .yearbox {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+  }
+  .subsdiv{
+    margin-top: 5%;
+  }
+  .labs{
+    row-gap: 10px;
+  }
+}
+
+.subsdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  cursor: pointer;
+}
+.subsdiv .editsubject:hover{
+  color: black;
+}
+
+
+.editmodal{
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(36, 45, 57, 1) 11.2%,
+    rgba(16, 37, 60, 1) 51.2%,
+    rgba(0, 0, 0, 1) 98.6%
+  );
+}

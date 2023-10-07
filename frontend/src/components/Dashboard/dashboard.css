@@ -1,0 +1,93 @@
+.generator{
+    display: flex;
+    column-gap: 5px;
+    margin-top: 1%;
+}
+.tableclass{
+    margin-left: 10%;
+}
+.sessiondetails{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 5px;
+}
+.generator input,
+.sessiondetails input{
+    height: 20px;
+    padding: 3px;
+    width: 300px;
+}
+
+.dashboardtable select{
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.button{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 2px;
+}
+.sessiondetails input:focus,
+.generator input:focus {
+    outline: none;
+}
+.dashboardcontents{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.code{
+    font-size: 20px;
+}
+.dashboardtable{
+    padding-inline: 5%;
+}
+.dashboardtable h3{
+    text-align: center;
+}
+.horizontalline{
+    width: 90%;
+}
+
+@media (max-width: 600px) {
+    .generator{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3px;
+        /* margin-top: 15%; */
+    }
+    .generator input{
+        text-align: center;
+    };
+    .generator button{
+        width: 100px;
+    }
+    .sessiondetails{
+        margin-top: 10%;
+    }
+    .sessiondetails input{
+        text-align: center;
+    }
+}
+.data{
+    display: none;
+}
+.download{
+    border: 1px solid white;
+    font-weight: normal;
+    padding: 3px;
+    cursor: pointer;
+}
+.download:hover{
+    background-color: gray;
+    color: white;
+}

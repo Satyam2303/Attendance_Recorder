@@ -1,0 +1,44 @@
+a {
+  color: white;
+}
+.errdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+body {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(36, 45, 57, 1) 11.2%,
+    rgba(16, 37, 60, 1) 51.2%,
+    rgba(0, 0, 0, 1) 98.6%
+  );
+  /* background-image: radial-gradient( circle 674px at 18.3% 77%,  rgba(139,186,244,1) 3.4%, rgba(15,51,92,1) 56.6% ); */
+  background-size: 100% 100%;
+  color: white;
+}
+html {
+  /* min-height: max-content; */
+  min-height: 100%;
+  height: auto;
+}
+input,
+select,
+select option {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.733);
+  color: white;
+  padding-left: 3px;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.733);
+  padding: 3px;
+}
+
+@media (max-width:600px) {
+  html{
+    min-height: 100%;
+    height: auto;
+  }
+}

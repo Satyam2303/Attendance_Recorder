@@ -1,0 +1,52 @@
+.logincontainer input {
+  font-size: 14px;
+}
+.alert {
+  color: red;
+}
+.logincontainer {
+  padding-bottom: 3%;
+  /* padding-top: 5%; */
+  margin: 2%;
+  width: 40%;
+}
+.loginhead {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  row-gap: 0px;
+}
+.loginhead p {
+  font-size: 30px;
+  padding-top: 0%;
+}
+.signuphead p {
+  margin-bottom: 3%;
+}
+.loginpage h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+.loginbox {
+  margin-top: 0%;
+}
+input:focus {
+  outline: none;
+}
+@media (max-width: 800px) {
+  .logincontainer {
+    width: 90%;
+  }
+  .loginpage {
+    margin-top: 17%;
+  }
+  .logincontainer {
+    padding-bottom: 10%;
+    padding-top: -2%;
+  }
+}
+@media (max-width: 300px) {
+  .otpcontainer input {
+    width: 90%;
+  }
+}

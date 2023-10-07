@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@progress/jszip-esm": "^1.0.3",
+    "@progress/kendo-file-saver": "^1.1.1",
+    "@progress/kendo-intl": "^3.1.1",
+    "@progress/pako-esm": "^1.0.1",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.5",
+    "nodemon": "^2.0.22"
+  },
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
